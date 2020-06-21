@@ -1,52 +1,3 @@
-html{
-    font-family: Noto Serif KR, serif;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, p{
-    color:lightgrey
-}
-
-h1{
-    font-size : 3em;
-    text-shadow: 5px 5px 5px #0e0e0e;
-}
-
-p{
-    width: 800px;
-    font-size: 1.2em;
-    line-height: 1.6;
-    word-spacing: 0.9;
-    margin-top: 50px;
-}
-
-.one{
-    width: 1200px;
-    margin: auto;
-    padding-top: 600px;   
-}
-
-.intro{
-    background: url(../img/title.png);
-    background-color: #1a1a1a;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.intro img{
-    margin-left: 100px;
-    width: 500px;
-}
-
-.murder{
-    background-color: #1a1a1a;
-}
 
 /*네비게이션 스크롤*/
 * { box-sizing: border-box;}
@@ -85,7 +36,7 @@ p{
     width: 5px;
     height: 5px;
     right: 0;
-    border: 2px solid #181818;
+    border: 2px solid #ffffff;
     transform: translateY(-50%);
 }
 .navbar .nav-menu li .dot::after {
@@ -135,3 +86,313 @@ p{
     opacity: 1;
 }
 /*네비게이션 css 끝*/
+
+html{
+    font-family: Noto Serif KR, serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p{
+    color:lightgrey;
+    word-break: keep-all
+}
+
+h1{
+    font-size : 3em;
+}
+
+p{
+    width: 800px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    word-spacing: 0.9;
+    margin-top: 50px;
+    clear: both;
+}
+
+.one{
+    width: 1200px;
+    margin: auto;
+    padding-top: 100px;   
+}
+
+.intro{
+    background: url(../img/title.png);
+    background-color: #1a1a1a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+.intro_one{
+    width: 1200px;
+    margin: auto;
+    padding-top: 600px;   
+}
+
+.intro img{
+    margin-left: 100px;
+    width: 500px;
+}
+
+.intro h1{
+    text-shadow: 5px 5px 5px #0e0e0e;
+}
+
+.logo{
+    float: right;
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+
+.logo h1{
+    font-size: 3em;
+    text-align: right;
+}
+
+.scene{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1000px;
+}
+
+.scene img{
+    width: 1000px;
+}
+
+.scene p{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 800px;
+}
+
+
+
+/*살인의 추억*/
+
+.murder{
+    background-color: #2E2B1D;
+}
+
+.murder_grad{
+    height: 500px;
+    margin-bottom: -500px;
+    background: linear-gradient( to bottom, #1a1a1a, #2e2b1d);
+}
+
+.murder_1{
+    position: relative;
+    top: 100px;
+    right: 50px;
+    width: 800px;
+    height: auto;
+    margin-top: 200px;
+    transform: rotate(-10deg);
+}
+
+.murder_logo{
+    width: 700px;
+}
+
+.murder_3{
+    position: relative;
+    bottom: 150px;
+    left:;
+    width: 800px;
+    height: auto;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    animation : 1s murder_3 ;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes murder_3{
+    from{opacity:1}
+    to{opacity: 0;}
+}
+
+.murder_4{
+    position: relative;
+    bottom: 900px;
+    left:;
+    width: 800px;
+    height: auto;
+    transform: rotate(10deg);
+    animation : 1s murder_4 ;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes murder_4{
+    from{opacity:0}
+    to{opacity: 1;}
+}
+
+/*살인의 추억 끝*/
+
+/*괴물*/
+
+.monster{
+    background-color: #3E4A42;
+}
+
+.monster_grad{
+    height: 500px;
+    margin-bottom: -500px;
+    background: linear-gradient( to bottom, #2e2b1d, #3E4A42);
+}
+
+.monster_1{
+    position: relative;
+    top: px;
+    right: 50px;
+    width: 700px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.monster .logo{
+    margin-top: 800px
+}
+
+.monster_logo{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+
+.monster_3{
+    position: relative;
+    width: 163%;
+    margin-top: 80px;
+    left: -400px;
+    bottom: -80px
+}
+/*괴물 끝*/
+
+/*설국열차*/
+
+.snow{
+    background-color: #3D4251;
+}
+
+.snow_grad{
+    height: 500px;
+    margin-bottom: -500px;
+    background: linear-gradient( to bottom, #3E4A42, #3D4251);
+}
+
+.snow .logo{
+    margin-top: 600px
+}
+
+.snow_1{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 300px;
+    height: auto;
+    animation: 5s wilford ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wilford {
+    from{
+        transform:none
+    }
+    to{
+        transform: rotate(1turn)
+    }
+}
+
+.snow_logo{
+    width: 700px;
+    float: right;
+    margin-top: 20px;
+}
+
+.snow_3{
+    position: relative;
+    width: 700px;
+    margin-top: 80px;
+    left: 450px;
+    bottom: -80px;
+    transform: rotate(-10deg);
+}
+/*설국열차 끝*/
+
+/*옥자*/
+
+.okja{
+    background-color: #4F4252;
+}
+
+.okja_grad{
+    height: 500px;
+    margin-bottom: -500px;
+    background: linear-gradient( to bottom, #3D4251, #4F4252);
+}
+
+.okja_1{
+    position: relative;
+    top: -30px;
+    left: 120px;
+    width: 700px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.okja_logo{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+
+.okja .logo{
+    margin-top: 600px;
+}
+
+.okja_3{
+    position: relative;
+    width: 800px;
+    top: 200px;
+    left: 50px;
+    margin: auto;
+    animation : 3s okja_3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes okja_3{
+    from{
+        transform: rotate(-15deg);
+        left : -200px
+    }
+    to{
+        transform: rotate(15deg);
+        left : 600px;
+    }
+}
+/*옥자 끝*/
+
+/*기생충*/
+
+.parasite{
+    background-color: #1a1a1a;
+}
+
+.parasite_grad{
+    height: 500px;
+    margin-bottom: -500px;
+    background: linear-gradient( to bottom, #4F4252, #1a1a1a);
+}
+
+/*기생충 끝*/
